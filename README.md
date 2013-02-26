@@ -48,7 +48,7 @@ Latency was below 150 ms.
 It would also be quite easy to access a kinect device using the .net libs available, but i guess that would make more sense on a rover. 
 
 
-i've released the source code under the GPLv2 in the hope that it will be usefull to others, and to speed up development. Remember this is more a framework, than an autopilot. But the plan is that it will become one someday :-)
+i've released the source code under the GPLv3 in the hope that it will be usefull to others, and to speed up development. Remember this is more a framework, than an autopilot. But the plan is that it will become one someday :-)
 
 
 You can find it in my SVN repository at:
@@ -74,6 +74,21 @@ Gavaghan.Geodesy
 Log4Net
 OpenGL / FreeGLUT / SDL
 
+    UAV.NET: a UAV / Robotic control framework for .net
+    Copyright (C) 2012  Peter Siegel
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
