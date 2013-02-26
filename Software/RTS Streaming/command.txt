@@ -1,0 +1,22 @@
+Idea:
+
+#Capture Uncompressed video directly from Camera, so we don't have any latency from Camera or encoding
+#discard sound 
+#(Still missing) reduce FPS
+#Pipe to x264 and encode with zerolatency tuning 
+#Pipe to Netcat to send it via UDP / TCP to the Client
+
+mencoder tv:// -ovc raw -nosound -ofps 25 -of rawvideo -o - | x264 --intra-refresh  --preset ultrafast --tune zerolatency --vbv-bufsize 23 --crf 30 --thread-input --input-res 640x480 --fps 25 --output - - | nc -l 4444
+
+
+ClientSide:
+
+Recieve Stream and pipe it to Mplayer or vlc
+nc 10.10.10.8 4444 | mplayer -
+
+
+Working Version with ffmpeg latency < 300ms
+
+ffmpeg -an -f video4linux2 -s 640x480 -r 15 -i /dev/video0 -vcodec libx264 -preset ultrafast -tune zerolatency -x264opts "vbv-maxrate=2000:vbv-bufsize=200:slice-max-size=1500" -f h264 udp://localhost:1234
+
+ffplay -i udp://localhost?localport=1234

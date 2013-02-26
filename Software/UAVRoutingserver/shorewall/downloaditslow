@@ -1,0 +1,16 @@
+
+
+
+
+
+
+cd /media/usb*
+cd suse.inode.at
+find . -name .listing |xargs rm -i
+cd ..
+
+#killproc wget
+#wget -m -c -b -N --limit-rate=10000 ftp://suse.inode.at/opensuse/distribution/SL-10.0-OSS/inst-source
+#wget -m -nc
+
+

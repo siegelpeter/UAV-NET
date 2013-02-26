@@ -1,0 +1,10 @@
+C:\Program Files\LibUsbDotNet\Src\LibWinUsb\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\LibWinUsb\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\LibWinUsb\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\LibWinUsb\obj\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\LibWinUsb\obj\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\LibWinUsb\bin\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\LibWinUsb\bin\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\LibWinUsb\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\LibWinUsb\obj\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\LibWinUsb\obj\Debug\LibUsbDotNet.pdb

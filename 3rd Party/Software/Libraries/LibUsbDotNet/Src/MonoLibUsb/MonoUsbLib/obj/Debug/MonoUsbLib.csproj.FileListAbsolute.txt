@@ -1,0 +1,10 @@
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\bin\Debug\MonoLibUsb.dll
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\bin\Debug\MonoLibUsb.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\MonoLibUsb.dll
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\MonoLibUsb.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\bin\Debug\MonoLibUsb.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\bin\Debug\MonoLibUsb.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\MonoLibUsb.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsbLib\obj\Debug\MonoLibUsb.pdb

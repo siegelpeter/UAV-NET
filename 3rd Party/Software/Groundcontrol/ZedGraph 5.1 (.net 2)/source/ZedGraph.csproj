@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2541686B-1673-43BF-AF89-3163945DB009}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZedGraph</RootNamespace>
+    <AssemblyName>ZedGraph</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>zedgraphkey.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\ZedGraph.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ArrowObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Axis.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\AxisLabel.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Bar.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\BarItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\BarSettings.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\BasicArrayPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Border.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\BoxObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\HiLowBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\OHLCBar.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\OHLCBarItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Chart.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\CollectionPlus.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ColorSymbolRotator.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\CurveItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\CurveList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\DataSourcePointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\DateAsOrdinalScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\DateScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\EllipseObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ErrorBar.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ErrorBarItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ExponentScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Fill.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\FilteredPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\FontSpec.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GapLabel.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GasGaugeNeedle.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GasGaugeRegion.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GraphObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GraphObjList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\GraphPane.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\HSBColor.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ImageObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\IPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\IPointListEdit.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\JapaneseCandleStick.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\JapaneseCandleStickItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Label.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Legend.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Line.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LinearAsOrdinalScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LinearScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LineBase.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LineItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LineObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Link.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Location.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\LogScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\MajorGrid.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\MajorTic.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Margin.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\MasterPane.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\MinorGrid.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\MinorTic.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\NoDupePointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\OrdinalScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PaneBase.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PaneList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PieItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointD.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointPair.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointPair4.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointPairBase.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointPairCV.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PointPairList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\PolyObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\RadarPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\RollingPointPairList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\SampleMultiPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\SamplePointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Scale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ScaleState.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ScaleStateList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ScrollRange.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ScrollRangeList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Selection.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\StickItem.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\StockPointList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\StockPt.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Symbol.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\TextObj.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\TextScale.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Types.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ValueHandler.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\X2Axis.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\XAxis.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\XDate.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Y2Axis.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\Y2AxisList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\YAxis.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\YAxisList.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.ContextMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.Designer.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.Events.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.Printing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.Properties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.ScrollBars.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphException.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZoomState.cs" />
+    <Compile Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZoomStateStack.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphControl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.hu.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.ja.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.ru.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.sk.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.sv.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.tr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.tw.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.zh-cn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\ZedGraph 5.1 %28.net 2%29\source\ZedGraph\ZedGraphLocale.zh-tw.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\ZedGraph 5.1 %28.net 2%29\source\zedgraphkey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

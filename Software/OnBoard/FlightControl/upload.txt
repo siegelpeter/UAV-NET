@@ -1,0 +1,6 @@
+option batch abort
+option confirm off
+# Connect
+open root@192.168.0.1
+# Upload the files
+put C:\Projekte\UAVProject\Software\OnBoard\FlightControl\bin\Debug\Transfer\*.* /root/FlightControl/

@@ -1,0 +1,5 @@
+V	210410113106Z		01	unknown	/C=AT/ST=CA/L=Linz/O=Fort-Funston/CN=server/emailAddress=me@myhost.mydomain
+V	210410113153Z		02	unknown	/C=AT/ST=CA/L=Linz/O=Fort-Funston/CN=uav1/emailAddress=me@myhost.mydomain
+V	210410113207Z		03	unknown	/C=AT/ST=CA/L=Linz/O=Fort-Funston/CN=uav2/emailAddress=me@myhost.mydomain
+V	210410113227Z		04	unknown	/C=AT/ST=CA/L=Linz/O=Fort-Funston/CN=ground1/emailAddress=me@myhost.mydomain
+V	210410113241Z		05	unknown	/C=US/ST=CA/L=SanFrancisco/O=Fort-Funston/CN=ground2/emailAddress=me@myhost.mydomain

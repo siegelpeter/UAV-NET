@@ -1,0 +1,11 @@
+SPS001,10.8.0.4
+client1,10.8.0.8
+client2,10.8.0.12
+client3,10.8.0.16
+client4,10.8.0.20
+client3,10.8.0.24
+client2,10.8.0.28
+schachner1,10.8.0.32
+Schachner1,10.8.0.36
+Schachner5,10.8.0.40
+Schachner3,10.8.0.44

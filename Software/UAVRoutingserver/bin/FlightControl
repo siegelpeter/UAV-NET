@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /var/www/woess/trunk/WindSrv/curbin/
+while [ "$var1" != "end" ]     # while test "$var1" != "end"
+do
+  echo "(Re)spawn Windserver"
+sudo /usr/bin/mono ./WindSrv.exe
+done

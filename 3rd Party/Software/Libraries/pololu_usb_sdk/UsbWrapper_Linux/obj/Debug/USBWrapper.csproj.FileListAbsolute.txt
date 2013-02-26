@@ -1,0 +1,10 @@
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper\bin\Debug\USBWrapper.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper\bin\Debug\USBWrapper.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper\obj\Debug\USBWrapper.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper\obj\Debug\USBWrapper.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\bin\Debug\USBWrapper.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\bin\Debug\USBWrapper.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\obj\Debug\USBWrapper.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\obj\Debug\USBWrapper.pdb

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B34F9B7D-3158-4FCD-818B-32D654E584AD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GroundControlUI</RootNamespace>
+    <AssemblyName>GroundControlUI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="BSE.Windows.Forms">
+      <HintPath>..\..\..\3rd Party\Software\Groundcontrol\GMap.NET.WindowsForms\BSE.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\3rd Party\Software\Groundcontrol\GMap.NET.WindowsForms\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="GMap.NET.Core">
+      <HintPath>..\..\..\3rd Party\Software\Groundcontrol\GMap.NET.WindowsForms\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>..\..\..\3rd Party\Software\Groundcontrol\GMap.NET.WindowsForms\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\3rd Party\Software\Groundcontrol\ZedGraph 5.1 %28.net 2%29\source\bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3DViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="3DViewer.Designer.cs">
+      <DependentUpon>3DViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ConnectionsPanel.Designer.cs">
+      <DependentUpon>ConnectionsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlPanel.Designer.cs">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DecimalTrackbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFISViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EFISViewer.Designer.cs">
+      <DependentUpon>EFISViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SetParameterOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SetParameterOptionsForm.Designer.cs">
+      <DependentUpon>SetParameterOptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeoView.Designer.cs">
+      <DependentUpon>GeoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogData.cs" />
+    <Compile Include="MapView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MapView.Designer.cs">
+      <DependentUpon>MapView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LogViewer.Designer.cs">
+      <DependentUpon>LogViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstrumentPanel.Designer.cs">
+      <DependentUpon>InstrumentPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Navigation\EditWayPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation\EditWayPoint.Designer.cs">
+      <DependentUpon>EditWayPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\JoystickSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\JoystickSettings.Designer.cs">
+      <DependentUpon>JoystickSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParameterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ParameterControl.Designer.cs">
+      <DependentUpon>ParameterControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersistentData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyChooser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyChooser.Designer.cs">
+      <DependentUpon>PropertyChooser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertygraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertygraphControl.Designer.cs">
+      <DependentUpon>PropertygraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertyWindow.designer.cs">
+      <DependentUpon>PropertyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemoteSettingsSets.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RemoteSettingsSets.Designer.cs">
+      <DependentUpon>RemoteSettingsSets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoViewer.Designer.cs">
+      <DependentUpon>VideoViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaypointList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WaypointList.Designer.cs">
+      <DependentUpon>WaypointList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="3DViewer.resx">
+      <DependentUpon>3DViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectionsPanel.resx">
+      <DependentUpon>ConnectionsPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanel.resx">
+      <DependentUpon>ControlPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EFISViewer.resx">
+      <DependentUpon>EFISViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SetParameterOptionsForm.resx">
+      <DependentUpon>SetParameterOptionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeoView.resx">
+      <DependentUpon>GeoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapView.resx">
+      <DependentUpon>MapView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogViewer.resx">
+      <DependentUpon>LogViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentPanel.resx">
+      <DependentUpon>InstrumentPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Navigation\EditWayPoint.resx">
+      <DependentUpon>EditWayPoint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\JoystickSettings.resx">
+      <DependentUpon>JoystickSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParameterControl.resx">
+      <DependentUpon>ParameterControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PropertyChooser.resx">
+      <DependentUpon>PropertyChooser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertygraphControl.resx">
+      <DependentUpon>PropertygraphControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PropertyWindow.resx">
+      <DependentUpon>PropertyWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemoteSettingsSets.resx">
+      <DependentUpon>RemoteSettingsSets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoViewer.resx">
+      <DependentUpon>VideoViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaypointList.resx">
+      <DependentUpon>WaypointList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\3rd Party\Software\Groundcontrol\AvionicsInstrumentControlDemo_Source\AvionicsInstrumentControlLib\AvionicsInstrumentControlDemo.csproj">
+      <Project>{1D3163E6-DC65-4595-9D51-4FD9174F2F61}</Project>
+      <Name>AvionicsInstrumentControlDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\3rd Party\Software\Groundcontrol\ColorProgressBar\ColorProgressBar.csproj">
+      <Project>{A7A170C5-C571-4294-82D4-50FFC8277E92}</Project>
+      <Name>ColorProgressBar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\3rd Party\Software\Groundcontrol\FlowLayoutPanelWithProgressBars\FlowLayoutPanelwithdragging.csproj">
+      <Project>{E98A1113-29C7-4811-8BA7-748C294B612B}</Project>
+      <Name>FlowLayoutPanelwithdragging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Commons\UAVCommons\UAVCommons.csproj">
+      <Project>{BCEED3BC-F551-4048-A79F-744BAAFAB752}</Project>
+      <Name>UAVCommons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\OnBoard\FlightControlCommons\FlightControlCommons.csproj">
+      <Project>{90E8371F-534B-4112-9371-2FED1258C078}</Project>
+      <Name>FlightControlCommons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GroundControlCore\GroundControlCore.csproj">
+      <Project>{332EC200-5E6F-474B-A7A3-0878F0A6E76A}</Project>
+      <Name>GroundControlCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenGLUI\OpenGLUI\OpenGLUI.csproj">
+      <Project>{EB9EB542-195E-40E1-9376-B9996FD150D9}</Project>
+      <Name>OpenGLUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multiple_Selection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\138_PushPin_24x24_72.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

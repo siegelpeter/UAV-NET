@@ -1,0 +1,5 @@
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.fTestBulk.resources
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\Test_Bulk.Properties.Resources.resources
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\ResGen.read.1.tlog
+C:\Program Files\LibUsbDotNet\Src\Test_Bulk\obj\Debug\ResGen.write.1.tlog

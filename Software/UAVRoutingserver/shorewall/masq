@@ -1,0 +1,12 @@
+#
+# Shorewall version 3.4 - Masq file
+#
+# For information about entries in this file, type "man shorewall-masq"
+#
+# For additional information, see http://shorewall.net/Documentation.htm#Masq
+#
+###############################################################################
+#INTERFACE		SOURCE		ADDRESS		PROTO	PORT(S)	IPSEC
+#eth1			ppp1
+#ppp0	10.10.11.0/24
+#LAST LINE -- ADD YOUR ENTRIES ABOVE THIS LINE -- DO NOT REMOVE

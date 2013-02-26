@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimConnector", "SimConnector.csproj", "{8AF86616-B809-4535-9A8C-ABDB0D4E94F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UAVCommons", "..\..\Commons\UAVCommons\UAVCommons.csproj", "{BCEED3BC-F551-4048-A79F-744BAAFAB752}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF86616-B809-4535-9A8C-ABDB0D4E94F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF86616-B809-4535-9A8C-ABDB0D4E94F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF86616-B809-4535-9A8C-ABDB0D4E94F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF86616-B809-4535-9A8C-ABDB0D4E94F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

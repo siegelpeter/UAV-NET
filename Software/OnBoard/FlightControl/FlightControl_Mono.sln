@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightControl_Mono", "FlightControl_Mono.csproj", "{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Debug|x86.ActiveCfg = Debug|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Debug|x86.Build.0 = Debug|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Release|x86.ActiveCfg = Release|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FlightControl_Mono.csproj
+	EndGlobalSection
+EndGlobal

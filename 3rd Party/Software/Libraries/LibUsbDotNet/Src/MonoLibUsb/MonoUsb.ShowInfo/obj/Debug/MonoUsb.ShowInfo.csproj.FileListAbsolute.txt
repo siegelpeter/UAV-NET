@@ -1,0 +1,14 @@
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\ShowInfo.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\ShowInfo.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ShowInfo.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ShowInfo.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\ShowInfo.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\ShowInfo.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\bin\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ShowInfo.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.ShowInfo\obj\Debug\ShowInfo.pdb

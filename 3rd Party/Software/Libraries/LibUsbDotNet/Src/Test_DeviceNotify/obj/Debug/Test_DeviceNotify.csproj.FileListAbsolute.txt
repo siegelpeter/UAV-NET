@@ -1,0 +1,5 @@
+C:\Program Files\LibUsbDotNet\Src\Test_DeviceNotify\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\Test_DeviceNotify\obj\Debug\Test_DeviceNotify.fTestDeviceNotify.resources
+C:\Program Files\LibUsbDotNet\Src\Test_DeviceNotify\obj\Debug\Test_DeviceNotify.Properties.Resources.resources
+C:\Program Files\LibUsbDotNet\Src\Test_DeviceNotify\obj\Debug\ResGen.read.1.tlog
+C:\Program Files\LibUsbDotNet\Src\Test_DeviceNotify\obj\Debug\ResGen.write.1.tlog

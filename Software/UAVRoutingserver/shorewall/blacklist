@@ -1,0 +1,13 @@
+#
+# Shorewall version 3.4 - Blacklist File
+#
+# For information about entries in this file, type "man shorewall-blacklist"
+#
+# Please see http://shorewall.net/blacklisting_support.htm for additional
+# information.
+#
+###############################################################################
+#ADDRESS/SUBNET		PROTOCOL	PORT
+#60.169.3.253
+#12.38.211.114
+#LAST LINE -- ADD YOUR ENTRIES BEFORE THIS ONE -- DO NOT REMOVE

@@ -1,0 +1,20 @@
+#
+# Shorewall version 3.4 - Start File
+#
+# /etc/shorewall/start
+/opt/in*/b*/redial
+#/bin/ipup.sh
+
+#
+#	Add commands below that you want to be executed after shorewall has
+#	been started or restarted.
+#
+# See http://shorewall.net/shorewall_extension_scripts.htm for additional
+# information.
+#
+###############################################################################
+#LAST LINE - ADD YOUR ENTRIES ABOVE THIS ONE - DO NOT REMOVE
+#run_iptables -I INPUT -i ppp0 -j LOG --log-prefix BANDWIDTH_IN: --log-level debug
+#run_iptables -I FORWARD -i ppp0 -j LOG --log-prefix BANDWIDTH_IN: --log-level debug
+#run_iptables -I FORWARD -o ppp0 -j LOG --log-prefix BANDWIDTH_OUT: --log-level debug
+#run_iptables -I OUTPUT -o ppp0 -j LOG --log-prefix BANDWIDTH_OUT: --log-level debug

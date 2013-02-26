@@ -1,0 +1,14 @@
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\MonoUsb.BulkReadWrite.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\MonoUsb.BulkReadWrite.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\MonoUsb.BulkReadWrite.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\MonoUsb.BulkReadWrite.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\MonoUsb.BulkReadWrite.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\MonoUsb.BulkReadWrite.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\bin\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\MonoUsb.BulkReadWrite.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.BulkReadWrite\obj\Debug\MonoUsb.BulkReadWrite.pdb

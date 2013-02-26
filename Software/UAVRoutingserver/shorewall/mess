@@ -1,0 +1,23 @@
+if [ -e /etc/shoreopactive ] 
+then 
+echo "Lockfile existiert => anderer shorewall cmd läuft bereits"
+exit
+fi
+echo "Lockfile test passed"
+touch /etc/shoreopactive
+
+
+rm /etc/shoreopactive
+echo "lockfile deleted"
+
+
+
+echo "beenden"
+exit
+if [ -e /etc/shoreopactive ] 
+then 
+echo "Lockfile existiert => anderer shorewall cmd läuft bereits"
+exit
+fi
+echo "Lockfile test passed"
+touch /etc/shoreopactive

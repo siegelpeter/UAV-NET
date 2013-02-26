@@ -1,0 +1,4 @@
+<devices>
+<device classid="AHRS" serial="A700eC6q" comment="Razor IMU + FTDI"/>
+<device classid="GPS" serial="A600eCeM" comment="Venus GPS + FTDI"/>
+</devices>

@@ -1,0 +1,9 @@
+
+if [ "$onoff" = "1" ]
+ then 
+echo "insta on"
+ 
+echo "on"
+
+fi
+ 

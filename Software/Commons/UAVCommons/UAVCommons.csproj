@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCEED3BC-F551-4048-A79F-744BAAFAB752}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UAVCommons</RootNamespace>
+    <AssemblyName>UAVCommons</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\3rd Party\Software\Libraries\log4net-1.2.10\bin\mono\2.0\debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\BaseCommand.cs" />
+    <Compile Include="Commands\EndpointCommands\EndPointCommand.cs" />
+    <Compile Include="Commands\EndpointCommands\GetEndpoints.cs" />
+    <Compile Include="Commands\GetParameters.cs" />
+    <Compile Include="Commands\KillProcess.cs" />
+    <Compile Include="Commands\FindFilesCommand.cs" />
+    <Compile Include="Commands\LoadValuesFromFileCommand.cs" />
+    <Compile Include="Commands\StartVideoStream.cs" />
+    <Compile Include="Commands\SaveUAV.cs" />
+    <Compile Include="Commands\SetParameterOptions.cs" />
+    <Compile Include="Commands\EndpointCommands\UpdateEndpoints.cs" />
+    <Compile Include="Commands\WriteToFlightLog.cs" />
+    <Compile Include="CommunicationEndpoint.cs" />
+    <Compile Include="Datamodel\DictionaryAdapter.cs" />
+    <Compile Include="Datamodel\DictionaryPropertyDescriptor.cs" />
+    <Compile Include="Datamodel\UAVSingleParameterObjectConverter.cs" />
+    <Compile Include="Datamodel\UAVStructureObjectConverter.cs" />
+    <Compile Include="Events\EventTimerRegulator.cs" />
+    <Compile Include="Events\UpdaterRateRegulator.cs" />
+    <Compile Include="IHardwareConnectable.cs" />
+    <Compile Include="IHierachyItem.cs" />
+    <Compile Include="IPCommunicationEndPoint.cs" />
+    <Compile Include="UAVSingleParameter.cs" />
+    <Compile Include="UDPCommunicationEndPoint.cs" />
+    <Compile Include="Logging\ValueLog.cs" />
+    <Compile Include="Logging\ParameterLogEvent.cs" />
+    <Compile Include="MonitoredDictionary.cs" />
+    <Compile Include="Navigation\WayPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TCPClient\TcpBaseClient.cs" />
+    <Compile Include="TCPClient\TcpDataClient.cs" />
+    <Compile Include="TCPCommunicationEndPoint.cs" />
+    <Compile Include="Commands\CommandHandler.cs" />
+    <Compile Include="TCPServer\CommandTcpServer.cs" />
+    <Compile Include="TCPClient\TcpCommandClient.cs" />
+    <Compile Include="TCPServer\TCPServer.cs" />
+    <Compile Include="TCPServer\DataTcpServer.cs" />
+    <Compile Include="UAVBase.cs" />
+    <Compile Include="UAVDataMapping.cs" />
+    <Compile Include="UAVParameter.cs" />
+    <Compile Include="UAVStructure.cs" />
+    <Compile Include="UDP\UDPBaseClient.cs" />
+    <Compile Include="UDP\UDPDataClient.cs" />
+    <Compile Include="ValueControl.cs" />
+    <Compile Include="Tools\Tools.cs" />
+    <Compile Include="Events\EventValue.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup />
+</Project>

@@ -1,0 +1,36 @@
+#
+# Shorewall version 3.4 - Accounting File
+#
+# For information about entries in this file, type "man shorewall-accounting"
+#
+# Please see http://shorewall.net/Accounting.html for examples and
+# additional information about how to use this file.
+#
+#####################################################################################
+#ACTION	CHAIN	SOURCE		DESTINATION	PROTO	DEST		SOURCE	USER/
+#							PORT(S)		PORT(S)	GROUP
+#Beate:COUNT	-	eth1:10.10.10.42	ppp0	tcp	-	-
+#Beate:COUNT	-	ppp0	eth1:10.10.10.42	tcp	-	-
+#Done Beate
+#Peter:COUNT	-	eth1:10.10.10.26	ppp0	tcp	-	-
+#Peter:COUNT	-	ppp0	eth1:10.10.10.26	tcp	-	-
+#Done Peter
+#Thomas:COUNT	-	eth1:10.10.10.202	ppp0	tcp	-	-
+#Thomas:COUNT	-	ppp0	eth1:10.10.10.202	tcp	-	-
+#Done Thomas
+#Internet:COUNT -	eth1	ppp0	-	-	-
+#Internet:COUNT -	ppp0	eth1	-	-	-
+#Internet:COUNT -	eth4	ppp0	-	-	-
+#Internet:COUNT -	ppp0	eth4	-	-	-
+#Done Internet
+#Wlan:COUNT	-	eth1	eth4	tcp	-	-
+#Wlan:COUNT	-	eth4	eth1	tcp	-	-
+#Done Wlan
+#Margarete:COUNT -	eth1:10.10.10.45	ppp0	tcp	-	-
+#Margarete:COUNT -	ppp0	eth1:10.10.10.45	tcp	-	-
+#Done Margarete
+#Lisi:COUNT -	eth1:10.10.10.43	ppp0	tcp	-	-
+#Lisi:COUNT -	ppp0	eth1:10.10.10.43	tcp	-	-
+#Done Lisi
+
+#LAST LINE -- ADD YOUR ENTRIES BEFORE THIS ONE -- DO NOT REMOVE

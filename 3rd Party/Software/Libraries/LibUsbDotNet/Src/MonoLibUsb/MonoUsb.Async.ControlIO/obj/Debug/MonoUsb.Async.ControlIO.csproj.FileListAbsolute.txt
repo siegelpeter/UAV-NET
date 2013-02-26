@@ -1,0 +1,14 @@
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\MonoUsb.Async.ControlIO.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\MonoUsb.Async.ControlIO.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\MonoUsb.Async.ControlIO.exe
+C:\Program Files\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\MonoUsb.Async.ControlIO.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\MonoUsb.Async.ControlIO.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\MonoUsb.Async.ControlIO.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\bin\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\MonoUsb.Async.ControlIO.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\MonoLibUsb\MonoUsb.Async.ControlIO\obj\Debug\MonoUsb.Async.ControlIO.pdb

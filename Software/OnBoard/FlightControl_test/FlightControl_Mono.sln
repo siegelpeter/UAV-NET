@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightControl_Mono", "FlightControl_Mono.csproj", "{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightControlCommons", "..\FlightControlCommons\FlightControlCommons.csproj", "{90E8371F-534B-4112-9371-2FED1258C078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UAVCommons", "..\..\Commons\UAVCommons\UAVCommons.csproj", "{BCEED3BC-F551-4048-A79F-744BAAFAB752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoystickInterface", "..\..\..\3rd Party\Software\JoystickInterface\JoystickInterface.csproj", "{0D77953E-FD60-4824-A997-AF72E66EF8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usc", "..\..\..\3rd Party\Software\Libraries\pololu_usb_sdk\Maestro\Usc\Usc.csproj", "{3CE41957-F003-4EEF-82AB-3EBB2F88DDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBWrapper", "..\..\..\3rd Party\Software\Libraries\pololu_usb_sdk\UsbWrapper_Linux\USBWrapper.csproj", "{52B4F9EF-F399-466D-A0F8-3873D8FED0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sequencer", "..\..\..\3rd Party\Software\Libraries\pololu_usb_sdk\Maestro\Sequencer\Sequencer.csproj", "{2BCD2482-D498-45F1-9F97-96B7DCC529E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpGps", "..\..\..\3rd Party\Software\Libraries\SharpGps\SharpGps.csproj", "{B5AADBAC-5D88-474B-BF38-EC0F0025415B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D77953E-FD60-4824-A997-AF72E66EF8C1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0D77953E-FD60-4824-A997-AF72E66EF8C1}.Debug|x86.Build.0 = Debug|Any CPU
+		{0D77953E-FD60-4824-A997-AF72E66EF8C1}.Release|x86.ActiveCfg = Release|Any CPU
+		{0D77953E-FD60-4824-A997-AF72E66EF8C1}.Release|x86.Build.0 = Release|Any CPU
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Debug|x86.ActiveCfg = Debug|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Debug|x86.Build.0 = Debug|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Release|x86.ActiveCfg = Release|x86
+		{2B405EFE-E5AD-426F-A4BF-176A1495DE3B}.Release|x86.Build.0 = Release|x86
+		{2BCD2482-D498-45F1-9F97-96B7DCC529E9}.Debug|x86.ActiveCfg = Debug|x86
+		{2BCD2482-D498-45F1-9F97-96B7DCC529E9}.Debug|x86.Build.0 = Debug|x86
+		{2BCD2482-D498-45F1-9F97-96B7DCC529E9}.Release|x86.ActiveCfg = Release|x86
+		{2BCD2482-D498-45F1-9F97-96B7DCC529E9}.Release|x86.Build.0 = Release|x86
+		{3CE41957-F003-4EEF-82AB-3EBB2F88DDBC}.Debug|x86.ActiveCfg = Debug|x86
+		{3CE41957-F003-4EEF-82AB-3EBB2F88DDBC}.Debug|x86.Build.0 = Debug|x86
+		{3CE41957-F003-4EEF-82AB-3EBB2F88DDBC}.Release|x86.ActiveCfg = Release|x86
+		{3CE41957-F003-4EEF-82AB-3EBB2F88DDBC}.Release|x86.Build.0 = Release|x86
+		{52B4F9EF-F399-466D-A0F8-3873D8FED0F1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52B4F9EF-F399-466D-A0F8-3873D8FED0F1}.Debug|x86.Build.0 = Debug|Any CPU
+		{52B4F9EF-F399-466D-A0F8-3873D8FED0F1}.Release|x86.ActiveCfg = Release|Any CPU
+		{52B4F9EF-F399-466D-A0F8-3873D8FED0F1}.Release|x86.Build.0 = Release|Any CPU
+		{90E8371F-534B-4112-9371-2FED1258C078}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90E8371F-534B-4112-9371-2FED1258C078}.Debug|x86.Build.0 = Debug|Any CPU
+		{90E8371F-534B-4112-9371-2FED1258C078}.Release|x86.ActiveCfg = Release|Any CPU
+		{90E8371F-534B-4112-9371-2FED1258C078}.Release|x86.Build.0 = Release|Any CPU
+		{B5AADBAC-5D88-474B-BF38-EC0F0025415B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B5AADBAC-5D88-474B-BF38-EC0F0025415B}.Debug|x86.Build.0 = Debug|Any CPU
+		{B5AADBAC-5D88-474B-BF38-EC0F0025415B}.Release|x86.ActiveCfg = Release|Any CPU
+		{B5AADBAC-5D88-474B-BF38-EC0F0025415B}.Release|x86.Build.0 = Release|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Debug|x86.Build.0 = Debug|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Release|x86.ActiveCfg = Release|Any CPU
+		{BCEED3BC-F551-4048-A79F-744BAAFAB752}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FlightControl_Mono.csproj
+	EndGlobalSection
+EndGlobal

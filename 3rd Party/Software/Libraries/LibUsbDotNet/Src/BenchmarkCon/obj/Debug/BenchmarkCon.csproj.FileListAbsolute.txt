@@ -1,0 +1,16 @@
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.exe.config
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.exe
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.pdb
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\LibUsbDotNet.dll
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\LibUsbDotNet.pdb
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\BenchmarkCon.exe
+C:\Program Files\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\BenchmarkCon.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.exe.config
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\BenchmarkCon.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\LibUsbDotNet.dll
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\bin\Debug\LibUsbDotNet.pdb
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\ResolveAssemblyReference.cache
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\BenchmarkCon.exe
+C:\Projekte\UAVProject\3rd Party\Software\Libraries\LibUsbDotNet\Src\BenchmarkCon\obj\Debug\BenchmarkCon.pdb

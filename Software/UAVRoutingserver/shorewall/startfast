@@ -1,0 +1,12 @@
+############################################################################
+# Shorewall 2.2 -- /etc/shorewall/start
+#
+# Add commands below that you want to be executed after shorewall has
+# been started or restarted.
+ /opt/in*/b*/redial
+
+/etc/shorewall/downloaditfast
+
+
+
+

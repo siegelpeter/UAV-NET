@@ -1,0 +1,10 @@
+#
+# Shorewall version 3.4 - Ecn File
+#
+# For information about entries in this file, type "man shorewall-ecn"
+#
+# For additional information, see http://shorewall.net/Documentation.htm#ECN
+#
+###############################################################################
+#INTERFACE	HOST(S)
+#LAST LINE -- ADD YOUR ENTRIES BEFORE THIS ONE -- DO NOT REMOVE
